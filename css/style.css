@@ -217,8 +217,8 @@ ul.social-icons{
     display: inline-block;
     margin-right: 1%;
 }
-.social-icons li a{  
-    background: url(../images/social-icons2.png) no-repeat 3px 3px;
+/*.social-icons li a{  
+   background: url(../images/social-icons2.png) no-repeat 3px 3px;
     display: block;
     height: 32px;
     width: 32px;
@@ -239,7 +239,7 @@ ul.social-icons{
 	-o-transform: rotate(45deg);
 	-ms-transform: rotate(45deg); 
     box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);	
-}
+}*/
 .social-icons li a.fb{
 	background-position: 3px -30px;
 }
@@ -483,7 +483,7 @@ span.border.one:after {
 }
 /*-- services --*/
 .service-head h3{
-	color: #1b242f;
+	color: #000000;
     font-size: 2em;
     font-weight:300;
      font-family: 'Open Sans', sans-serif;
@@ -614,7 +614,7 @@ span.border.one:after {
     background: #1b242f;
 }
 .service-head.one h3{
-	color: black;
+	color: #fff;
 }
 /*-- clients --*/
 
@@ -1985,4 +1985,13 @@ span.border.two:after {
 }
 .service-head.two h3{
 	color: #fff;
+}
+
+/*----------------*/
+
+.bottom_icon{
+	color: #fff;
+	width: 50px;
+	height: 50px;
+	margin-left: 10px	;
 }
