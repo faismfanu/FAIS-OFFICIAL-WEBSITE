@@ -1468,3 +1468,39 @@ if ( typeof Object.create !== "function" ) {
 		
 	};
 })( jQuery, window, document );
+function validation() {
+
+	var name = document.getElementById("name").value;
+	var phone = document.getElementById("phone").value;
+	var email = document.getElementById("email").value;
+	var message = document.getElementById("message").value;
+	var error_message = document.getElementById("error_message");
+
+	error_message.style.padding = "0px" ;
+
+	if (name.length <2) {
+		text = "Please enter the vaild name*";
+		error_name.innerHTML = text;
+		return false;
+	}
+    if (isNaN(phone) || phone.length != 10) {
+
+		text = "Please Enter vaild Phone Number*";
+		error_phone.innerHTML = text;
+		return false;
+	}
+	if (email.indexOf("@") == -1 || email.length < 6) {
+
+		text = "Please Enter the vaild Email*";
+		error_email.innerHTML = text;
+		return false;
+	}
+	if (message.length <2) {
+
+		text = "Please enter the Message*";
+		error_message.innerHTML = text;
+		return false;
+	}
+	alert("form submitted succesfully")
+	
+}

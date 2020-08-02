@@ -1133,7 +1133,7 @@ ul.social-icons.two {
     border: 2px solid #00a78e;
 }
 .mail_right textarea {
-	height:200px; 
+	height:183px; 
 	resize:none;	
 }
 .mail_right input[type="submit"] {
@@ -1995,3 +1995,20 @@ span.border.two:after {
 	height: 50px;
 	margin-left: 10px	;
 }
+/*-------------------*/
+.wrapper #error_message{
+ 
+	padding: 10px;
+	background:black;
+	color: red;
+	text-align: center;
+	font-size: 5px;
+	transition: all 0.5s ease;
+}
+.error_color{
+	color: red;
+	font-size: small;
+
+}
+
+
